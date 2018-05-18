@@ -12,7 +12,7 @@ public class AlertTest {
 		
 		System.setProperty("webdriver.chrome.driver", "E:\\Selenium Workspace\\lib\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		
+		//
         driver.get("https://netbanking.hdfcbank.com/netbanking/");
 		driver.switchTo().frame("login_page");
         driver.findElement(By.xpath("//img[@alt='continue']")).click();
